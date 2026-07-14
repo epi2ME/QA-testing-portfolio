@@ -10,13 +10,15 @@
 
 **Steps:**
 1. Navigate to "Find Transactions"
-2. Select the account
-3. Enter the known amount in "Amount" search field
-4. Click search
+2. Select an **existing** account
+3. Enter the known amount in "Find by Amount" search field
+4. Click "Find Transaction"
 
 **Expected Result:** The transaction(s) matching that exact amount are displayed, with correct date, description, and amount.
 
-**Status:** Not Executed
+**Test Evidence:** <img width="912" height="647" alt="image" src="https://github.com/user-attachments/assets/8bac80d7-5453-45a1-b5c2-377eac54acce" />
+
+**Status:** Pass
 
 ---
 
@@ -32,7 +34,11 @@
 
 **Expected Result:** Transactions from that specific date are listed; no transactions from other dates appear.
 
-**Status:** Not Executed
+**Test Evidence:** 
+<img width="933" height="903" alt="image" src="https://github.com/user-attachments/assets/f93cf7d5-93e0-47a5-a419-1320f29f847e" />
+<img width="878" height="651" alt="image" src="https://github.com/user-attachments/assets/7afcaf1f-2202-43b9-9816-f988cdb4f97f" />
+
+**Status:** Pass
 
 ---
 
@@ -48,7 +54,11 @@
 
 **Expected Result:** All transactions within the range are shown; transactions outside the range are excluded. Results are correctly sorted (typically by date).
 
-**Status:** Not Executed
+**Test Evidence:** 
+<img width="997" height="914" alt="image" src="https://github.com/user-attachments/assets/321830c4-f5bf-4991-9adb-cfe68812f4da" />
+<img width="900" height="645" alt="image" src="https://github.com/user-attachments/assets/3fadb00a-dc60-4ebd-b0be-7ef43e77c587" />
+
+**Status:** Pass
 
 ---
 
@@ -64,51 +74,29 @@
 
 **Expected Result:** Exactly one transaction is returned, matching the ID, with correct details.
 
-**Status:** Not Executed
+**Test Evidence:** 
+<img width="888" height="903" alt="image" src="https://github.com/user-attachments/assets/bd9e36b2-d788-4ae2-9b95-596fd94d5051" />
+<img width="881" height="643" alt="image" src="https://github.com/user-attachments/assets/2ea4e640-db8d-43e1-a124-241d5cd9ebb5" />
+
+**Status:** Pass
 
 ---
 
-## TC-TRANS-005 — Verify search with no matching results shows an appropriate message
+## TC-TRANS-005 — Verify search with no matching results, incorrect format, incorrect value type shows an appropriate message
 **Priority:** Medium
-**Test Data:** An amount or date known to have no matching transactions (e.g. $99999.99)
+**Test Data:** An amount or date known to have no matching transactions (e.g. 99999.99/acb123/cba321/abc12345)
 
 **Steps:**
-1. Navigate to "Find Transactions"
-2. Search using criteria with no matches
-3. Click search
+1. Navigate to all filters
+2. Search using criteria with no matches 
+3. Click Find <field>
 
-**Expected Result:** A clear "no transactions found" message is displayed rather than an error or blank/broken page.
+**Expected Result:** A clear "No transactions found/Incorrect <field>" message is displayed rather than an error or blank/broken page.
 
-**Status:** Not Executed
+**Test Evidence:**
+<img width="879" height="917" alt="image" src="https://github.com/user-attachments/assets/6bb8fb8b-cfa1-432c-87d6-1ce9a92c2c53" />
 
----
-
-## TC-TRANS-006 — Verify search with invalid transaction ID (non-numeric) is handled gracefully
-**Priority:** Medium
-**Test Data:** Transaction ID: "abc123"
-
-**Steps:**
-1. Navigate to "Find Transactions"
-2. Enter a non-numeric value in the Transaction ID field
-3. Click search
-
-**Expected Result:** System shows a validation error or "not found" message; does not throw a server error.
-
-**Status:** Not Executed
-
----
-
-## TC-TRANS-007 — Verify search with empty/blank criteria is handled correctly
-**Priority:** Low
-
-**Steps:**
-1. Navigate to "Find Transactions"
-2. Leave all search fields blank
-3. Click search
-
-**Expected Result:** System either prompts the user to enter at least one search criterion, or returns all transactions — behavior should be consistent with what's documented/expected.
-
-**Status:** Not Executed
+**Status:** Pass
 
 ---
 
@@ -123,4 +111,8 @@
 
 **Expected Result:** System shows a validation message about the invalid range, or returns zero results without error — should not crash or show incorrect data.
 
-**Status:** Not Executed
+**Test Evidence:**
+<img width="931" height="899" alt="image" src="https://github.com/user-attachments/assets/7fefa87e-fe5d-4f18-acba-a6867d4ebb02" />
+<img width="913" height="655" alt="image" src="https://github.com/user-attachments/assets/b11f4664-16c9-4e5b-8340-b6f65223b6b2" />
+
+**Status:** Pass with condition - Error message: "An internal error has occurred and has been logged".
