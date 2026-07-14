@@ -76,6 +76,7 @@
 **Expected Result:** Exactly one transaction is returned, matching the ID, with correct details.
 
 **Test Evidence:** 
+
 <img width="888" height="903" alt="image" src="https://github.com/user-attachments/assets/bd9e36b2-d788-4ae2-9b95-596fd94d5051" />
 <img width="881" height="643" alt="image" src="https://github.com/user-attachments/assets/2ea4e640-db8d-43e1-a124-241d5cd9ebb5" />
 
