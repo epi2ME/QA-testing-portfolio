@@ -1,4 +1,4 @@
-# Test Plan: [App Name] Login & Authentication
+# Test Plan: Parabank - Login & Authentication
 
 ## 1. Objective
 Verify that the login functionality works correctly for valid users, and fails safely and clearly for invalid input.
@@ -25,7 +25,7 @@ Verify that the login functionality works correctly for valid users, and fails s
 ## 5. Test Environment
 - Browser: Chrome 126, Firefox 127
 - OS: Windows 11
-- URL: [app URL]
+- URL: [[app URL]](https://parabank.parasoft.com/parabank/login.htm)
 
 ## 6. Deliverables
 - Test cases (see `/test-cases/login.md`)
@@ -33,7 +33,7 @@ Verify that the login functionality works correctly for valid users, and fails s
 - Summary of results (below, filled in after execution)
 
 ## 7. Summary of Results
-- Total test cases: 12
-- Passed: 9
-- Failed: 3
-- Bugs filed: 3 (see bug-reports folder)
+- Total test cases: 4
+- Passed: 4
+- Failed: 0
+- Bugs filed: 0
