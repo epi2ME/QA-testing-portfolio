@@ -18,9 +18,9 @@
 
 **Test Evidence:**
 <img width="942" height="645" alt="image" src="https://github.com/user-attachments/assets/200cc249-04d6-421c-9c48-adca69be8383" />
-<img width="831" height="639" alt="image" src="https://github.com/user-attachments/assets/6b8d2156-c240-4e88-a51e-9d2b1c7ef80a" />
+<img width="883" height="674" alt="image" src="https://github.com/user-attachments/assets/58f0f813-a577-4fc5-bd9f-e8ca2b0b1444" />
 
-**Status:** Fail
+**Status:** Pass with condition - error messages intermittently occur because of rate limiting.
 
 ---
 
@@ -34,9 +34,11 @@
 4. Select an existing account to fund it from
 5. Click "Open New Account"
 
-**Expected Result:** New Checking account is created and listed in Accounts Overview with correct type.
+**Test Evidence:**
+<img width="942" height="645" alt="image" src="https://github.com/user-attachments/assets/200cc249-04d6-421c-9c48-adca69be8383" />
+<img width="883" height="674" alt="image" src="https://github.com/user-attachments/assets/58f0f813-a577-4fc5-bd9f-e8ca2b0b1444" />
 
-**Status:** Not Executed
+**Status:** Conditional Pass - error messages intermittently occur because of rate limiting.
 
 ---
 
@@ -54,7 +56,11 @@
 
 **Expected Result:** System either blocks account creation with a clear error message, or clearly states no minimum balance is required. Behavior should be consistent with stated business rules.
 
-**Status:** Not Executed
+**Test Evidence:**
+<img width="942" height="645" alt="image" src="https://github.com/user-attachments/assets/200cc249-04d6-421c-9c48-adca69be8383" />
+<img width="883" height="674" alt="image" src="https://github.com/user-attachments/assets/58f0f813-a577-4fc5-bd9f-e8ca2b0b1444" />
+
+**Status:** Conditional Pass/Fail - the behavior is consistently deducting the account number after creating a savings account. The business rules should be consistent and precise.
 
 ---
 
@@ -67,7 +73,11 @@
 
 **Expected Result:** Each new account is assigned a distinct, unique account number.
 
-**Status:** Not Executed
+**Test Evidence:**
+<img width="942" height="645" alt="image" src="https://github.com/user-attachments/assets/200cc249-04d6-421c-9c48-adca69be8383" />
+<img width="883" height="674" alt="image" src="https://github.com/user-attachments/assets/58f0f813-a577-4fc5-bd9f-e8ca2b0b1444" />
+
+**Status:** Pass
 
 ---
 
@@ -83,7 +93,11 @@
 
 **Expected Result:** New Savings account shows a starting balance of $100. Funding (Checking) account balance is reduced by $100.
 
-**Status:** Not Executed
+**Test Evidence:**
+<img width="942" height="645" alt="image" src="https://github.com/user-attachments/assets/200cc249-04d6-421c-9c48-adca69be8383" />
+<img width="883" height="674" alt="image" src="https://github.com/user-attachments/assets/58f0f813-a577-4fc5-bd9f-e8ca2b0b1444" />
+
+**Status:** Pass
 
 ---
 
@@ -94,7 +108,7 @@
 
 **Expected Result:** System should not allow account creation without a valid "transfer from" account, or should clearly explain the requirement.
 
-**Status:** Not Executed / Blocked
+**Status:** Not Executed / Blocked / Not Possible
 
 ---
 
@@ -108,4 +122,4 @@
 
 **Expected Result:** Form prevents submission or shows a validation message; no account is created.
 
-**Status:** Not Executed
+**Status:** Not Executed / Not Possible because of UI restriction
