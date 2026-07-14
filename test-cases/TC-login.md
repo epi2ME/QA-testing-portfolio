@@ -4,6 +4,7 @@
 **Priority:** High
 
 **Preconditions:** User account exists with valid credentials
+
 **Test Evidence:** <img width="956" height="661" alt="image" src="https://github.com/user-attachments/assets/ceab0da1-08d3-4f9e-8a59-33ce563da102" />
 **Test Data:** email: `epitome`, password: `12345`
 
@@ -22,6 +23,7 @@
 ## TC-LOGIN-002 — Verify login fails with incorrect password
 **Priority:** High
 **Preconditions:** User account exists - user is on login page
+
 **Test Evidence:** <img width="978" height="630" alt="image" src="https://github.com/user-attachments/assets/1089d583-70d1-494d-a23b-0c432d7eeca2" />
 **Test Data:** email: `epitome`, password: `123456`
 
@@ -47,6 +49,7 @@
 2. Click "Login"
 
 **Expected Result:** Inline validation errors appear under each empty field; form does not submit.
+
 **Test Evidence:** <img width="973" height="626" alt="image" src="https://github.com/user-attachments/assets/3e94655d-ecfb-427d-bc9e-89cd6cd9a4f9" />
 
 **Status:** Pass
@@ -63,6 +66,7 @@
 2. Click "Login"
 
 **Expected Result:** Login fails safely with a generic error message; no system error or unauthorized access occurs.
+
 **Test Evidence:** <img width="1040" height="144" alt="image" src="https://github.com/user-attachments/assets/742aafe8-906c-4545-b596-cb2239e53b53" />
 
 **Status:** Fail - See BR-001-login-error.md
