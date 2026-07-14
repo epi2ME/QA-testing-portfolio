@@ -36,7 +36,7 @@
 
 <img width="899" height="650" alt="image" src="https://github.com/user-attachments/assets/0b3de66b-28c8-448b-a7dc-525e96847013" />
 
-**Status:** Fail
+**Status:** Fail  See BR-001-logout-error.md
 
 ---
 
