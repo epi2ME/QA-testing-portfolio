@@ -106,7 +106,7 @@
 
 ---
 
-## TC-TRANS-008 — Verify date range with "From" date after "To" date is handled correctly
+## TC-TRANS-006 — Verify date range with "From" date after "To" date is handled correctly
 **Priority:** Medium
 **Test Data:** From: 07/20/2026, To: 07/01/2026 (invalid range, From > To)
 
