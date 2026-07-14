@@ -1,6 +1,8 @@
 # BR-002: Transfer of < Balance Amount and Negative Balance Amount.
 
-**Related Test Case:** TC-XFER-002
+**Related Test Case:** 
+1. TC-XFER-002
+2. TC-XFER-003
 
 **Severity:** High
 
