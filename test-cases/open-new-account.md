@@ -16,7 +16,11 @@
 
 **Expected Result:** Confirmation page displays with a new account number. New account appears under "Accounts Overview."
 
-**Status:** Not Executed
+**Test Evidence:**
+<img width="942" height="645" alt="image" src="https://github.com/user-attachments/assets/200cc249-04d6-421c-9c48-adca69be8383" />
+<img width="831" height="639" alt="image" src="https://github.com/user-attachments/assets/6b8d2156-c240-4e88-a51e-9d2b1c7ef80a" />
+
+**Status:** Fail
 
 ---
 
