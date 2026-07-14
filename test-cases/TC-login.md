@@ -65,8 +65,8 @@
 1. Enter the test data above into email and password fields
 2. Click "Login"
 
-**Expected Result:** Login fails safely with a generic error message; no system error or unauthorized access occurs.
+**Expected Result:** Login fails safely with a generic error message; no system error or unauthorized access occurs. The error should be 400 Bad Request or 422 Unprocessable Entity
 
 **Test Evidence:** <img width="1040" height="144" alt="image" src="https://github.com/user-attachments/assets/742aafe8-906c-4545-b596-cb2239e53b53" />
 
-**Status:** Fail - See BR-001-login-error.md
+**Status:** Pass
