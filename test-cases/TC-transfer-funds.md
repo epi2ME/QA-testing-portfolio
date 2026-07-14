@@ -5,7 +5,9 @@
 ---
 
 ## TC-XFER-001 — Verify successful transfer between two valid accounts
+
 **Priority:** High
+
 **Test Data:** From: Checking ($500), To: Savings ($200), Amount: $100
 
 **Steps:**
@@ -31,7 +33,9 @@
 ---
 
 ## TC-XFER-002 — Verify transfer fails when amount exceeds available balance
+
 **Priority:** High
+
 **Test Data:** From: Savings ($200), To: Checking, Amount: $5000
 
 **Steps:**
@@ -52,7 +56,9 @@
 ---
 
 ## TC-XFER-003 — Verify transfer fails with zero amount
+
 **Priority:** Medium
+
 **Test Data:** Amount: $0
 
 **Steps:**
@@ -74,7 +80,9 @@
 ---
 
 ## TC-XFER-004 — Verify transfer fails with negative amount
+
 **Priority:** High
+
 **Test Data:** Amount: -50
 
 **Steps:**
@@ -96,7 +104,9 @@
 ---
 
 ## TC-XFER-005 — Verify transfer fails with non-numeric amount
+
 **Priority:** Medium
+
 **Test Data:** Amount: "abc"
 
 **Steps:**
@@ -117,7 +127,9 @@
 ---
 
 ## TC-XFER-006 — Verify user cannot transfer to the same account (From = To)
+
 **Priority:** Medium
+
 **Test Data:** From: Checking, To: Checking, Amount: $50
 
 **Steps:**
@@ -138,7 +150,9 @@
 ---
 
 ## TC-XFER-007 — Verify transfer with decimal amount is handled correctly
+
 **Priority:** Medium
+
 **Test Data:** Amount: $25.75
 
 **Steps:**
@@ -159,6 +173,7 @@
 ---
 
 ## TC-XFER-008 — Verify transferred amount appears in transaction history
+
 **Priority:** High
 
 **Steps:**
