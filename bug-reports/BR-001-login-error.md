@@ -1,15 +1,17 @@
 # BR-001: Incorrect password shows generic 500 error instead of clear message
 
 **Related Test Case:** TC-LOGIN-002
+
 **Severity:** High
+
 **Priority:** High
+
 **Status:** Open
 
 ## Environment
 - Browser: Chrome 126
 - OS: Windows 11
-- URL: [app URL]
-- Build/Version: [if known]
+- URL: https://parabank.parasoft.com/parabank/register.htm
 
 ## Steps to Reproduce
 1. Navigate to the login page
@@ -24,7 +26,7 @@ A clear, user-facing error message: "Incorrect email or password."
 The page displays a generic "500 Internal Server Error" and the user is left with no explanation of what went wrong.
 
 ## Evidence
-[Attach screenshot or screen recording here]
+<img width="853" height="593" alt="image" src="https://github.com/user-attachments/assets/2d4b6698-d642-4f84-860b-19b18e182596" />
 
 ## Impact
 Users who mistype their password get no guidance to correct it, likely increasing support requests and abandonment at login.
