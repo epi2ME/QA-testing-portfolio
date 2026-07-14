@@ -12,10 +12,10 @@ This repo showcases my testing process on sample applications: how I plan tests,
 
 ## 🔍 Featured Project: Parabank
 
-- **What I tested:** [e.g. Login, Checkout flow, Search]
+- **What I tested:** [Login, Fund Transfer, Find Transactions, Opening New Accounts, Logout]
 - **Approach:** Manual exploratory testing + structured test cases covering functional, negative, and edge cases
-- **Tools used:** [e.g. Chrome DevTools, Postman, TestRail-style docs]
-- **Result:** --
+- **Tools used:** [e.g. Chrome DevTools, Postman]
+- **Result:** 30 test cases executed - 27 passed - 3 failed - See bug-reports for the bugs reported.
 
 See [`test-plans/sample-test-plan.md`](test-plans/sample-test-plan.md), [`test-cases/login.md`](test-cases/login.md), and [`bug-reports/BR-001-login-error.md`](bug-reports/BR-001-login-error.md) for details.
 
