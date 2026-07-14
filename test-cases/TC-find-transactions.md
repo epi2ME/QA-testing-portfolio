@@ -17,6 +17,7 @@
 **Expected Result:** The transaction(s) matching that exact amount are displayed, with correct date, description, and amount.
 
 **Test Evidence:** 
+
 <img width="912" height="647" alt="image" src="https://github.com/user-attachments/assets/8bac80d7-5453-45a1-b5c2-377eac54acce" />
 
 **Status:** Pass
@@ -36,6 +37,7 @@
 **Expected Result:** Transactions from that specific date are listed; no transactions from other dates appear.
 
 **Test Evidence:** 
+
 <img width="933" height="903" alt="image" src="https://github.com/user-attachments/assets/f93cf7d5-93e0-47a5-a419-1320f29f847e" />
 <img width="878" height="651" alt="image" src="https://github.com/user-attachments/assets/7afcaf1f-2202-43b9-9816-f988cdb4f97f" />
 
@@ -56,6 +58,7 @@
 **Expected Result:** All transactions within the range are shown; transactions outside the range are excluded. Results are correctly sorted (typically by date).
 
 **Test Evidence:** 
+
 <img width="997" height="914" alt="image" src="https://github.com/user-attachments/assets/321830c4-f5bf-4991-9adb-cfe68812f4da" />
 <img width="900" height="645" alt="image" src="https://github.com/user-attachments/assets/3fadb00a-dc60-4ebd-b0be-7ef43e77c587" />
 
@@ -96,6 +99,7 @@
 **Expected Result:** A clear "No transactions found/Incorrect <field>" message is displayed rather than an error or blank/broken page.
 
 **Test Evidence:**
+
 <img width="879" height="917" alt="image" src="https://github.com/user-attachments/assets/6bb8fb8b-cfa1-432c-87d6-1ce9a92c2c53" />
 
 **Status:** Pass
@@ -114,6 +118,7 @@
 **Expected Result:** System shows a validation message about the invalid range, or returns zero results without error — should not crash or show incorrect data.
 
 **Test Evidence:**
+
 <img width="931" height="899" alt="image" src="https://github.com/user-attachments/assets/7fefa87e-fe5d-4f18-acba-a6867d4ebb02" />
 <img width="913" height="655" alt="image" src="https://github.com/user-attachments/assets/b11f4664-16c9-4e5b-8340-b6f65223b6b2" />
 
