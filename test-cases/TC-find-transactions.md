@@ -16,7 +16,8 @@
 
 **Expected Result:** The transaction(s) matching that exact amount are displayed, with correct date, description, and amount.
 
-**Test Evidence:** <img width="912" height="647" alt="image" src="https://github.com/user-attachments/assets/8bac80d7-5453-45a1-b5c2-377eac54acce" />
+**Test Evidence:** 
+<img width="912" height="647" alt="image" src="https://github.com/user-attachments/assets/8bac80d7-5453-45a1-b5c2-377eac54acce" />
 
 **Status:** Pass
 
