@@ -51,7 +51,7 @@
 <img width="846" height="648" alt="image" src="https://github.com/user-attachments/assets/f3b631e9-be36-4ad6-bcfe-da2df3a19c8a" />
 <img width="818" height="645" alt="image" src="https://github.com/user-attachments/assets/5899e12a-ad50-4abf-8d9a-363ba720d32e" />
 
-**Status:** Fail
+**Status:** Fail - See BR-002-transfer-funds.md
 
 ---
 
